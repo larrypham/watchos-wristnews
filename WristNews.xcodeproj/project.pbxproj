@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3F716B42A48A38B0058CC26 /* WristNews Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3F716B32A48A38B0058CC26 /* WristNews Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07594B65974122B5DB5F63AB /* libPods-WristNews Watch App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0174B5242339F8CBF5B8FC8 /* libPods-WristNews Watch App.a */; };
+		5D10947BDE249739A99EA2D0 /* libPods-WristNews Watch AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C03BE328441F1A74C42138 /* libPods-WristNews Watch AppTests.a */; };
+		936998A241F62FA0215F2798 /* libPods-WristNews-WristNews Watch AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9401BD8916FD41D1FD90602F /* libPods-WristNews-WristNews Watch AppUITests.a */; };
+		E3C560412A49EF9B00F5B953 /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C560402A49EF9B00F5B953 /* ArticleRow.swift */; };
+		E3C560442A49F14D00F5B953 /* ArticleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C560432A49F14D00F5B953 /* ArticleFetcher.swift */; };
+		E3C560462A49F83E00F5B953 /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C560452A49F83E00F5B953 /* ArticleDetail.swift */; };
 		E3F716B92A48A38B0058CC26 /* WristNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F716B82A48A38B0058CC26 /* WristNewsApp.swift */; };
 		E3F716BB2A48A38B0058CC26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F716BA2A48A38B0058CC26 /* ContentView.swift */; };
 		E3F716BD2A48A38C0058CC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F716BC2A48A38C0058CC26 /* Assets.xcassets */; };
@@ -15,16 +20,11 @@
 		E3F716CA2A48A38C0058CC26 /* WristNews_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F716C92A48A38C0058CC26 /* WristNews_Watch_AppTests.swift */; };
 		E3F716D42A48A38C0058CC26 /* WristNews_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F716D32A48A38C0058CC26 /* WristNews_Watch_AppUITests.swift */; };
 		E3F716D62A48A38C0058CC26 /* WristNews_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F716D52A48A38C0058CC26 /* WristNews_Watch_AppUITestsLaunchTests.swift */; };
+		E3F716E72A48A4390058CC26 /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F716E62A48A4390058CC26 /* ArticlesView.swift */; };
+		E3F716EB2A48A4720058CC26 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F716EA2A48A4720058CC26 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E3F716B52A48A38B0058CC26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3F716A72A48A38B0058CC26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3F716B22A48A38B0058CC26;
-			remoteInfo = "WristNews Watch App";
-		};
 		E3F716C62A48A38C0058CC26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E3F716A72A48A38B0058CC26 /* Project object */;
@@ -41,22 +41,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E3F716DC2A48A38C0058CC26 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				E3F716B42A48A38B0058CC26 /* WristNews Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		E3F716AD2A48A38B0058CC26 /* WristNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WristNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7C9EB424DE3A3A51D891FB /* Pods-WristNews-WristNews Watch AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews-WristNews Watch AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WristNews-WristNews Watch AppUITests/Pods-WristNews-WristNews Watch AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29078B35F89C7CDFE8C84983 /* Pods-WristNews Watch AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews Watch AppTests.debug.xcconfig"; path = "Target Support Files/Pods-WristNews Watch AppTests/Pods-WristNews Watch AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		457C8599D651F5B9A932FDF3 /* Pods-WristNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews.debug.xcconfig"; path = "Target Support Files/Pods-WristNews/Pods-WristNews.debug.xcconfig"; sourceTree = "<group>"; };
+		70C87CA585CBFC3E1F3E99C8 /* libPods-WristNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WristNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814E3808E6D105931A8D7829 /* Pods-WristNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews.release.xcconfig"; path = "Target Support Files/Pods-WristNews/Pods-WristNews.release.xcconfig"; sourceTree = "<group>"; };
+		86C03BE328441F1A74C42138 /* libPods-WristNews Watch AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WristNews Watch AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9401BD8916FD41D1FD90602F /* libPods-WristNews-WristNews Watch AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WristNews-WristNews Watch AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958F7131D511845385BF2215 /* Pods-WristNews-WristNews Watch AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews-WristNews Watch AppUITests.release.xcconfig"; path = "Target Support Files/Pods-WristNews-WristNews Watch AppUITests/Pods-WristNews-WristNews Watch AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0174B5242339F8CBF5B8FC8 /* libPods-WristNews Watch App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WristNews Watch App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B286B68558E0418A2BDD7938 /* Pods-WristNews Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews Watch App.release.xcconfig"; path = "Target Support Files/Pods-WristNews Watch App/Pods-WristNews Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		B2ECF6C048ECD43C2E330C00 /* Pods-WristNews Watch AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews Watch AppTests.release.xcconfig"; path = "Target Support Files/Pods-WristNews Watch AppTests/Pods-WristNews Watch AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3DFC29CE4A0FD7FE2C553FE /* Pods-WristNews Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristNews Watch App.debug.xcconfig"; path = "Target Support Files/Pods-WristNews Watch App/Pods-WristNews Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		E3C560402A49EF9B00F5B953 /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
+		E3C560432A49F14D00F5B953 /* ArticleFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFetcher.swift; sourceTree = "<group>"; };
+		E3C560452A49F83E00F5B953 /* ArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetail.swift; sourceTree = "<group>"; };
 		E3F716B32A48A38B0058CC26 /* WristNews Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WristNews Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F716B82A48A38B0058CC26 /* WristNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristNewsApp.swift; sourceTree = "<group>"; };
 		E3F716BA2A48A38B0058CC26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +67,8 @@
 		E3F716CF2A48A38C0058CC26 /* WristNews Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WristNews Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F716D32A48A38C0058CC26 /* WristNews_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristNews_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		E3F716D52A48A38C0058CC26 /* WristNews_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristNews_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3F716E62A48A4390058CC26 /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		E3F716EA2A48A4720058CC26 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07594B65974122B5DB5F63AB /* libPods-WristNews Watch App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D10947BDE249739A99EA2D0 /* libPods-WristNews Watch AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +92,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936998A241F62FA0215F2798 /* libPods-WristNews-WristNews Watch AppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3C560422A49F13F00F5B953 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E3C560432A49F14D00F5B953 /* ArticleFetcher.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		E3F716A62A48A38B0058CC26 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +114,14 @@
 				E3F716C82A48A38C0058CC26 /* WristNews Watch AppTests */,
 				E3F716D22A48A38C0058CC26 /* WristNews Watch AppUITests */,
 				E3F716AE2A48A38B0058CC26 /* Products */,
+				E89FF9BBE98B279648E2E9E8 /* Pods */,
+				F25FD6D776659BC092046364 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E3F716AE2A48A38B0058CC26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3F716AD2A48A38B0058CC26 /* WristNews.app */,
 				E3F716B32A48A38B0058CC26 /* WristNews Watch App.app */,
 				E3F716C52A48A38C0058CC26 /* WristNews Watch AppTests.xctest */,
 				E3F716CF2A48A38C0058CC26 /* WristNews Watch AppUITests.xctest */,
@@ -118,8 +132,10 @@
 		E3F716B72A48A38B0058CC26 /* WristNews Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				E3C560422A49F13F00F5B953 /* Service */,
+				E3F716E92A48A4670058CC26 /* Model */,
+				E3F716E82A48A4590058CC26 /* View */,
 				E3F716B82A48A38B0058CC26 /* WristNewsApp.swift */,
-				E3F716BA2A48A38B0058CC26 /* ContentView.swift */,
 				E3F716BC2A48A38C0058CC26 /* Assets.xcassets */,
 				E3F716BE2A48A38C0058CC26 /* Preview Content */,
 			);
@@ -151,30 +167,59 @@
 			path = "WristNews Watch AppUITests";
 			sourceTree = "<group>";
 		};
+		E3F716E82A48A4590058CC26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3F716BA2A48A38B0058CC26 /* ContentView.swift */,
+				E3F716E62A48A4390058CC26 /* ArticlesView.swift */,
+				E3C560402A49EF9B00F5B953 /* ArticleRow.swift */,
+				E3C560452A49F83E00F5B953 /* ArticleDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3F716E92A48A4670058CC26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3F716EA2A48A4720058CC26 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E89FF9BBE98B279648E2E9E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				457C8599D651F5B9A932FDF3 /* Pods-WristNews.debug.xcconfig */,
+				814E3808E6D105931A8D7829 /* Pods-WristNews.release.xcconfig */,
+				B3DFC29CE4A0FD7FE2C553FE /* Pods-WristNews Watch App.debug.xcconfig */,
+				B286B68558E0418A2BDD7938 /* Pods-WristNews Watch App.release.xcconfig */,
+				29078B35F89C7CDFE8C84983 /* Pods-WristNews Watch AppTests.debug.xcconfig */,
+				B2ECF6C048ECD43C2E330C00 /* Pods-WristNews Watch AppTests.release.xcconfig */,
+				1F7C9EB424DE3A3A51D891FB /* Pods-WristNews-WristNews Watch AppUITests.debug.xcconfig */,
+				958F7131D511845385BF2215 /* Pods-WristNews-WristNews Watch AppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F25FD6D776659BC092046364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C87CA585CBFC3E1F3E99C8 /* libPods-WristNews.a */,
+				B0174B5242339F8CBF5B8FC8 /* libPods-WristNews Watch App.a */,
+				86C03BE328441F1A74C42138 /* libPods-WristNews Watch AppTests.a */,
+				9401BD8916FD41D1FD90602F /* libPods-WristNews-WristNews Watch AppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3F716AC2A48A38B0058CC26 /* WristNews */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3F716DD2A48A38C0058CC26 /* Build configuration list for PBXNativeTarget "WristNews" */;
-			buildPhases = (
-				E3F716AB2A48A38B0058CC26 /* Resources */,
-				E3F716DC2A48A38C0058CC26 /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3F716B62A48A38B0058CC26 /* PBXTargetDependency */,
-			);
-			name = WristNews;
-			productName = WristNews;
-			productReference = E3F716AD2A48A38B0058CC26 /* WristNews.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
 		E3F716B22A48A38B0058CC26 /* WristNews Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3F716D92A48A38C0058CC26 /* Build configuration list for PBXNativeTarget "WristNews Watch App" */;
 			buildPhases = (
+				95772B65D4088FE0B23EA7F3 /* [CP] Check Pods Manifest.lock */,
 				E3F716AF2A48A38B0058CC26 /* Sources */,
 				E3F716B02A48A38B0058CC26 /* Frameworks */,
 				E3F716B12A48A38B0058CC26 /* Resources */,
@@ -192,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3F716E02A48A38C0058CC26 /* Build configuration list for PBXNativeTarget "WristNews Watch AppTests" */;
 			buildPhases = (
+				8BE5629F304A05B4951A9A31 /* [CP] Check Pods Manifest.lock */,
 				E3F716C12A48A38C0058CC26 /* Sources */,
 				E3F716C22A48A38C0058CC26 /* Frameworks */,
 				E3F716C32A48A38C0058CC26 /* Resources */,
@@ -210,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3F716E32A48A38C0058CC26 /* Build configuration list for PBXNativeTarget "WristNews Watch AppUITests" */;
 			buildPhases = (
+				47D47B4983AC60BDBFF75344 /* [CP] Check Pods Manifest.lock */,
 				E3F716CB2A48A38C0058CC26 /* Sources */,
 				E3F716CC2A48A38C0058CC26 /* Frameworks */,
 				E3F716CD2A48A38C0058CC26 /* Resources */,
@@ -234,9 +281,6 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					E3F716AC2A48A38B0058CC26 = {
-						CreatedOnToolsVersion = 14.3.1;
-					};
 					E3F716B22A48A38B0058CC26 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -263,7 +307,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3F716AC2A48A38B0058CC26 /* WristNews */,
 				E3F716B22A48A38B0058CC26 /* WristNews Watch App */,
 				E3F716C42A48A38C0058CC26 /* WristNews Watch AppTests */,
 				E3F716CE2A48A38C0058CC26 /* WristNews Watch AppUITests */,
@@ -272,13 +315,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E3F716AB2A48A38B0058CC26 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E3F716B12A48A38B0058CC26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,11 +340,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47D47B4983AC60BDBFF75344 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WristNews-WristNews Watch AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE5629F304A05B4951A9A31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WristNews Watch AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95772B65D4088FE0B23EA7F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WristNews Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3F716AF2A48A38B0058CC26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C560412A49EF9B00F5B953 /* ArticleRow.swift in Sources */,
+				E3F716EB2A48A4720058CC26 /* Article.swift in Sources */,
+				E3C560442A49F14D00F5B953 /* ArticleFetcher.swift in Sources */,
+				E3F716E72A48A4390058CC26 /* ArticlesView.swift in Sources */,
+				E3C560462A49F83E00F5B953 /* ArticleDetail.swift in Sources */,
 				E3F716BB2A48A38B0058CC26 /* ContentView.swift in Sources */,
 				E3F716B92A48A38B0058CC26 /* WristNewsApp.swift in Sources */,
 			);
@@ -334,11 +444,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E3F716B62A48A38B0058CC26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3F716B22A48A38B0058CC26 /* WristNews Watch App */;
-			targetProxy = E3F716B52A48A38B0058CC26 /* PBXContainerItemProxy */;
-		};
 		E3F716C72A48A38C0058CC26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E3F716B22A48A38B0058CC26 /* WristNews Watch App */;
@@ -463,6 +568,7 @@
 		};
 		E3F716DA2A48A38C0058CC26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DFC29CE4A0FD7FE2C553FE /* Pods-WristNews Watch App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +599,7 @@
 		};
 		E3F716DB2A48A38C0058CC26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B286B68558E0418A2BDD7938 /* Pods-WristNews Watch App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,41 +629,9 @@
 			};
 			name = Release;
 		};
-		E3F716DE2A48A38C0058CC26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5348XZ3NED;
-				INFOPLIST_KEY_CFBundleDisplayName = WristNews;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.position.apps.WristNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		E3F716DF2A48A38C0058CC26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5348XZ3NED;
-				INFOPLIST_KEY_CFBundleDisplayName = WristNews;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.position.apps.WristNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		E3F716E12A48A38C0058CC26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29078B35F89C7CDFE8C84983 /* Pods-WristNews Watch AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,6 +653,7 @@
 		};
 		E3F716E22A48A38C0058CC26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2ECF6C048ECD43C2E330C00 /* Pods-WristNews Watch AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -600,6 +676,7 @@
 		};
 		E3F716E42A48A38C0058CC26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7C9EB424DE3A3A51D891FB /* Pods-WristNews-WristNews Watch AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -620,6 +697,7 @@
 		};
 		E3F716E52A48A38C0058CC26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958F7131D511845385BF2215 /* Pods-WristNews-WristNews Watch AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -656,15 +734,6 @@
 			buildConfigurations = (
 				E3F716DA2A48A38C0058CC26 /* Debug */,
 				E3F716DB2A48A38C0058CC26 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3F716DD2A48A38C0058CC26 /* Build configuration list for PBXNativeTarget "WristNews" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3F716DE2A48A38C0058CC26 /* Debug */,
-				E3F716DF2A48A38C0058CC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

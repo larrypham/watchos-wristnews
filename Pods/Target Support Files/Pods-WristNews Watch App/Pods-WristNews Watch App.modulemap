@@ -1,0 +1,6 @@
+module Pods_WristNews_Watch_App {
+  umbrella header "Pods-WristNews Watch App-umbrella.h"
+
+  export *
+  module * { export * }
+}
